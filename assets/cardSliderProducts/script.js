@@ -38,3 +38,17 @@ $(document).ready(function() {
         autoPlay:true
     });
 });
+
+
+$(document).ready(function() {
+    $("#news-slider-rainbow").owlCarousel({
+        items : 4,
+        itemsDesktop:[1199,3],
+        itemsDesktopSmall:[980,2],
+        itemsMobile : [600,1],
+        navigation:true,
+        navigationText:["",""],
+        pagination:true,
+        autoPlay:true
+    });
+});
